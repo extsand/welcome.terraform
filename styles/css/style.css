@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+html, body {
+  font-size: 10px;
+  font-family: "Nanum Gothic", sans-serif; }
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.content {
+  margin: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .content h2 {
+    font-weight: 800;
+    font-size: 7rem;
+    margin: 0;
+    padding: 0; }
+
+.title {
+  font-size: 3rem;
+  margin: 2rem 0; }
+
+.text_wrap {
+  width: 100%; }
+
+.p-text, .p-text-gen {
+  font-size: 2rem;
+  margin: 0; }
+
+.generated-p {
+  margin: 2rem 0; }
+
+.bold_word {
+  font-weight: 800; }
+
+.telegram-link {
+  font-size: 2rem; }
+  .telegram-link a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-color: #5C4EE5;
+    padding: 2rem 3rem;
+    border-radius: 30px;
+    -webkit-transition: background-color 0.3s ease-in;
+    -o-transition: background-color 0.3s ease-in;
+    transition: background-color 0.3s ease-in; }
+    .telegram-link a:hover {
+      background-color: #160E5F; }
+    .telegram-link a:focus {
+      outline: none;
+      outline-offset: none;
+      background-color: #160E5F; }
+
+.terraform_logo {
+  width: 60rem;
+  height: auto; }
+
+.rect-dark {
+  -webkit-animation: animateLogo_dark 3s infinite;
+          animation: animateLogo_dark 3s infinite; }
+
+.rect-light {
+  -webkit-animation: animateLogo_light 5s infinite;
+          animation: animateLogo_light 5s infinite; }
+
+@-webkit-keyframes animateLogo_dark {
+  0% {
+    fill: #5C4EE5; }
+  25% {
+    fill: #160E5F; }
+  50% {
+    fill: #C54EE6; }
+  100% {
+    fill: #5C4EE5; } }
+
+@keyframes animateLogo_dark {
+  0% {
+    fill: #5C4EE5; }
+  25% {
+    fill: #160E5F; }
+  50% {
+    fill: #C54EE6; }
+  100% {
+    fill: #5C4EE5; } }
+
+@-webkit-keyframes animateLogo_light {
+  0% {
+    fill: #978DEE; }
+  25% {
+    fill: #5C4EE5; }
+  100% {
+    fill: #4EA7E6; } }
+
+@keyframes animateLogo_light {
+  0% {
+    fill: #978DEE; }
+  25% {
+    fill: #5C4EE5; }
+  100% {
+    fill: #4EA7E6; } }
+/*# sourceMappingURL=style.css.map */
